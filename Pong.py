@@ -52,7 +52,7 @@ delta_x, delta_y = - PIXEL, - PIXEL
 ticks = 0
 
 sock = socket(AF_INET, SOCK_STREAM)
-sock.bind(("192.168.2.112", PLAY_PORT))
+sock.bind(("127.0.0.1", PLAY_PORT))
 
 sock.listen(1)
 conn, addr = sock.accept()
