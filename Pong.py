@@ -50,7 +50,7 @@ x_ball, y_ball = 12 * PIXEL, 12 * PIXEL
 delta_x, delta_y = - PIXEL, - PIXEL
 
 ticks = 0
-
+' Hallo '
 sock = socket(AF_INET, SOCK_STREAM)
 sock.bind(("127.0.0.1", PLAY_PORT))
 
